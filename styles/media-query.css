@@ -24,10 +24,34 @@ Grandes telas 1200 +
         height: 100%;
     }
 
-    section > div#loginform { 
+    section > div#loginform {
         float: right;
         width: 60%;
         height: 100%;
+    }
+
+    section > div#loginform h1 {
+        font-size: 2em;
+        padding:20px 0px;
+    }
+
+    section > div#loginform p {
+        text-align: center;
+        font-size: 1.1em; 
+        padding: 20px 0px;
+    }
+
+    .botao { 
+        height: 40px;
+    }
+
+    form > input[type=submit].botao { 
+        margin-top:25px;
+    }
+
+    form a.botao {
+        margin-top: 10px; 
+        padding: 10px;
     }
 }
 
@@ -55,10 +79,24 @@ Grandes telas 1200 +
 
     section > div#loginform h1 { 
         font-size: 2em;
+        padding:20px 0px;
     }
 
     section > div#loginform p { 
         font-size: 1.2em;
+        padding:10px 0px;
+    }
+
+    .botao {
+        height: 40px;
     }
     
+    form > input[type=submit].botao {
+        margin-top: 25px; 
+    }
+
+    form > a.botao {
+        margin-top: 10px ;
+        padding-top: 10px;
+    }
 }

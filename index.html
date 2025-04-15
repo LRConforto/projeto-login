@@ -15,25 +15,24 @@
             <div id="imagem"></div>
             <div id="loginform">
                 <h1>Login</h1>
-                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                 <p>Seja bem-vindo(a) novamente.<br>Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
             <form action="login.php" method="POST">
-                <div>
+                <div class="campos">
                     <i class="material-symbols-outlined">person</i>
-                    <input type="email" name="email" id="iemail">
+                    <input type="email" name="email" id="iemail" placeholder=" E-mail" required>
                     <label for="iemail">Email</label>
                 </div>
-                <div>
+                <div class="campos">
                     <i class="material-symbols-outlined">lock</i>
-                    <input type="password" name="senha" id="isenha">
+                    <input type="password" name="senha" id="isenha" placeholder=" Senha" required maxlength="10" minlength="5">
                     <label for="isenha">Senha</label>
                 </div>
-                <input type="submit" value="Entrar">
-                <a href="#">
+                <input class="botao" type="submit" value="Entrar">
+                <a href="esqueci.html" class="botao">
                     Esqueci minha senha <i class="material-symbols-outlined">mail</i>
                 </a>               
             </form>
             </div>
-
         </section>
     </main>
 </body>

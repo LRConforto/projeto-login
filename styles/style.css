@@ -30,7 +30,7 @@ section#login {
     background-color: white;
     position: absolute; 
     width: 250px;
-    height: 500px;
+    height: 593px;
     border-radius: 20px;
     left: 50%;
     top:50%;
@@ -49,15 +49,85 @@ section > div#imagem {
     height: 250px;   
 }
 
-section > div#loginform  h1 { 
+section > div#loginform {
+    text-align: center; 
+    padding: 10px;
+}
+
+section > div#loginform  h1 {
+    color: #025940c0;
     text-align: center;
     margin-bottom: 10px;
 }
 
 section > div#loginform p { 
     font-size: 0.8em;
+    margin-bottom: 15px;
 }
 
-section > div#loginform { 
-    padding: 10px;
+
+
+label { 
+    font-size:15px;
+}
+
+.campos {
+    background-color: #7ebfa17a;
+    margin:auto;
+    text-align: center;
+    width: 90%;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 6px;
+
+}
+
+.campos > input {
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    border: none; 
+}
+
+ div.campos >label {
+    display: none;
+}
+
+.botao {
+    display: block;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;    
+}
+
+form input[type=submit].botao{ 
+    background-color: #025940cb;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 6px;
+}
+
+form input[type=submit]:hover { 
+    background-color: #023829cb;
+}
+
+form > a.botao {
+    padding-top:5px; 
+    background-color: #7EBFA1;
+    text-align: center;
+    font-size: 0.8em;
+    text-decoration: none;
+    color: #01271cf6;
+}
+
+form a.botao:hover {
+    background-color: white;
+    border: 1px solid #507966;
+}
+
+form > a.botao > i {
+    font-size: 1em;
 }
