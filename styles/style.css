@@ -15,7 +15,7 @@ Lilás: #5f2c82
 
 body, html { 
 /*     background-color: rgba(189, 248, 100, 0.322);
- */ background-color: #5f2c82;
+ */ background-color: #7EBFA1;
     width: 100vw;
     height: 100vh;
 }
@@ -37,14 +37,25 @@ section#login {
     transform: translate(-50%, -50%);
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+    transition: width 0.3s, heigth 0.3s;
+    transition-timing-function: linear;
 }
 
 section > div#imagem { 
-    background-image: url(../img/nature-green.jpg);
+    background-image: url(../img/nature-green-mobile.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top,center;
     height: 250px;   
+}
+
+section > div#loginform  h1 { 
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+section > div#loginform p { 
+    font-size: 0.8em;
 }
 
 section > div#loginform { 
